@@ -1,0 +1,7 @@
+aws configure - in the initial step.
+aws eks update-kubeconfig --name Cloud-Native-cluster --region us-east-1
+
+Aftr doing any chnages in aws configuration, you need to update-kubecofig.
+
+
+attach the required policies to your IAM user otherwise you'll get permission issues.
